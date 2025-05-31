@@ -1,0 +1,15 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "main": "scale.js",
+  "scripts": {
+    "run": "artillery run loadtest.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "artillery": "^2.0.21"
+  }
+}

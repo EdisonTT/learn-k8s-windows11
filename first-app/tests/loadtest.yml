@@ -1,0 +1,9 @@
+config:
+  target: "<app-service-url>"
+  phases:
+    - duration: 30
+      arrivalRate: 50
+scenarios:
+  - flow:
+      - get:
+          url: "/"
