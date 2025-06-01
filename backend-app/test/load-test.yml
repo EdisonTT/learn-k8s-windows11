@@ -1,0 +1,18 @@
+config:
+  target: "http://127.0.0.1:58000 "  # Your app’s base URL (update as needed)
+  phases:
+    - duration: 60                 # Test duration in seconds
+      arrivalRate: 10              # Number of new users per second
+scenarios:
+  - name: Say Hello Endpoint Test
+    flow:
+      - get:
+          url: "/greet/say-hello"
+  - name: Delayed Hello Endpoint Test
+    flow:
+      - get:
+          url: "/greet/delayed-hello?delayTime=2000"
+  - name: Load CPU Endpoint Test
+    flow:
+      - get:
+          url: "/greet/load-cpu?loadTime=3000"
