@@ -1,7 +1,3 @@
-Absolutely! Here’s your updated and beautifully formatted `README.md` with a note of acknowledgment to ChatGPT at the end:
-
----
-
 # Learn Kubernetes on Windows 11
 
 🚀 This repository helps you set up and learn **Kubernetes (K8s)** on a **Windows 11** system. It’s perfect for beginners and developers who want a solid local Kubernetes environment using **Docker Desktop**, **WSL 2**, and related tools.
@@ -116,7 +112,3 @@ Feel free to fork, improve, and create pull requests. Any suggestions or bug rep
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more info.
-
----
-
-Let me know if you'd also like a `CONTRIBUTING.md` or other docs added!
